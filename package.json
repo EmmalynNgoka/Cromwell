@@ -1,5 +1,5 @@
 {
-  "name": "cypress-bdd-pom-cromwell",
+  "name": "cypress-pom-bdd-tests-cromwell",
   "version": "1.0.0",
   "description": "Functional BDD tests",
   "main": "index.js",
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:EmmalynNgoka/Cromwell.git"
+    "url": "git@github.com:EmmalynNgoka/Cypress-pom-bdd-tests-cromwell.git"
   },
   "author": "E Ngoka",
   "license": "ISC",
