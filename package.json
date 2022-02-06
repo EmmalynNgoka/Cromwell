@@ -1,0 +1,48 @@
+{
+  "name": "cypress-bdd-pom-cromwell",
+  "version": "1.0.0",
+  "description": "Functional BDD tests",
+  "main": "index.js",
+  "scripts": {
+    "test:all": "npx cypress run --spec cypress/integration/*.feature",
+    "test:feature": "npx cypress run --spec cypress/integration/CategorySearch.feature",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:electron": "cypress run --browser electron"
+  },
+  "keywords": [
+    "Cypress",
+    "BDD",
+    "Cucumber",
+    "PageObject"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:EmmalynNgoka/Cromwell.git"
+  },
+  "author": "E Ngoka",
+  "license": "ISC",
+  "engines": {
+    "node": ">=12.0"
+  },
+"cypress-cucumber-preprocessor": {
+  "step_definitions": "cypress/support/step_definitions/",
+  "cucumberJson": {
+    "generate": true,
+    "outputFolder": "cypress/reports/json",
+    "filePrefix": ""
+  }
+},
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "4.3.0",
+    "cypress-xpath": "1.6.2",
+    "fs": "0.0.2",
+    "path": "0.12.7"
+  },
+  "devDependencies": {
+    "cypress": "9.1.0",
+    "cypress-terminal-report": "3.4.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "testFiles": "**/*.feature",
+    "video": false,
+    "ignoreTestFiles": ["*.js","*.md","*.spec"],
+    "execTimout": 60000,
+    "defaultCommandTimeout": 12000,
+    "pageLoadTimeout": 80000,
+    "requestTimeout": 12000,
+    "responseTimeout": 33000,
+    "chromeWebSecurity": false,
+    "port": null,
+    "integrationFolder": "cypress/integration",
+    "fixturesFolder": "cypress/fixtures",
+    "pluginsFile": "cypress/plugins/index.js",
+    "supportFile": "cypress/support/index.js",
+    "screenshotsFolder": "cypress/screenshots",
+    "nodeVersion": "system"
+}
